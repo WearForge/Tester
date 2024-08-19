@@ -39,6 +39,9 @@ fun WearApp() {
             composable(NavigationItem.Info.route) {
                 Menus().InfoMenu(navController)
             }
+            composable(NavigationItem.Light.route) {
+                Menus().LightMenu(navController)
+            }
         }
     }
 }
